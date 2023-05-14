@@ -7,12 +7,15 @@
         <style>
             body
             {
-                text-align: center;
-                background: #fff url(sk6aqjh1ro371.png) center center/cover no-repeat;
-                font-family: Arial, Helvetica, sans-serif;
+                position: absolute;
+                width: 1954px;
+                height: 1090px;
+                left: calc(50% - 1954px/2);
+                top: calc(50% - 1090px/2);
+                background: url(sk6aqjh1ro371.png);
             }
             
-            input[type=search]
+            input[type=link1],input[type=link2]
             {
                 position: absolute;
                 width: 731px;
@@ -70,8 +73,8 @@
 
 <form action="Login" method="post">
   <div class="container">
-    <input type="search" name="myInput" placeholder="Enter the input video link..." size="100" required><br><br>
-    <input type="search" name="myInput" placeholder="Enter the video database link..." size="100" required><br>
+    <input type="link1" name="myInput" placeholder="Enter the input video link..." size="100" required><br><br>
+    <input type="link2" name="myInput" placeholder="Enter the video database link..." size="100" required><br>
     <button type="submit"><b>SEARCH</b></button><br>
   </div>
 </form>
