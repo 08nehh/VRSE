@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Video Retrieval Search Engine</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            body
+            {
+                color: #FFFFFF;
+                text-align: center;
+                background: linear-gradient(42deg, rgba(136, 45, 74, 0.7) 0%, #5D0EB5 88%);
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            form
+            {
+                background-color: #522C5A;
+                box-shadow: -1px 5px 19px 0px #000;
+            }
+            
+            input[type=text], input[type=password]
+            {
+                width: 50%;
+                padding: 12px 20px;
+                margin: 8px 0;
+                display: inline-block;
+                border: 1px solid #ccc;
+                box-sizing: border-box;
+            }
+            
+            input[type=checkbox]
+            {
+                text-align: center;
+            }
+
+            button
+            {
+                background-color: #04AA6D;
+                color: white;
+                padding: 14px 20px;
+                margin: 8px 0;
+                border: none;
+                cursor: pointer;
+                width: 50%;
+                background-color: #258249;
+                transition: background-color 1s ease 0s;
+            }
+
+            button:hover
+            {
+                background-color: #16A74D;
+            }
+
+            .container
+            {
+                padding: 16px;
+            }
+
+            span.psw
+            {
+                float: right;
+                padding-top: 16px;
+            }
+
+            @media screen and (max-width: 300px)
+            {
+                span.psw
+                {
+                    display: block;
+                    float: none;
+                }
+            }
+        </style>
+    </head>
+<body>
+
+<h2>SEARCH BAR</h2>
+
+<form action="Login" method="post">
+  <div class="container">
+    <label for="uname"><b>VIDEO TO BE SEARCHED:</b></label><br>
+    <input type="text" placeholder="ENTER INPUT VIDEO'S DRIVE LINK" name="uname" required><br>
+    <label for="psw"><b>VIDEO DATABASE</b></label><br>
+    <input type="password" placeholder="ENTER THE FOLDER'S DRIVE LINK" name="psw" required><br>
+    <button type="submit"><b>SEARCH</b></button><br>
+  </div>
+</form>
+</body>
+</html>
