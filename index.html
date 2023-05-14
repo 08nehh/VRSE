@@ -12,12 +12,8 @@
                 background: #fff url(sk6aqjh1ro371.png) center center/cover no-repeat;
                 font-family: Arial, Helvetica, sans-serif;
             }
-            form
-            {
-                box-shadow: -1px 5px 19px 0px #000;
-            }
             
-            input[type=text], input[type=password]
+            input[type=text]
             {
                 width: 50%;
                 padding: 12px 20px;
@@ -26,28 +22,25 @@
                 border: 1px solid #ccc;
                 box-sizing: border-box;
             }
-            
-            input[type=checkbox]
+            form
             {
-                text-align: center;
             }
-
+            
             button
             {
-                background-color: #04AA6D;
+                background-color: ##0C194A;
                 color: white;
                 padding: 14px 20px;
                 margin: 8px 0;
                 border: none;
                 cursor: pointer;
                 width: 20%;
-                background-color: #258249;
                 transition: background-color 1s ease 0s;
             }
 
             button:hover
             {
-                background-color: #16A74D;
+                background-color: #050923;
             }
 
             .container
@@ -77,10 +70,8 @@
 
 <form action="Login" method="post">
   <div class="container">
-    <label for="uname"><b>VIDEO TO BE SEARCHED:</b></label><br>
-    <input type="text" placeholder="ENTER INPUT VIDEO'S DRIVE LINK" name="uname" required><br>
-    <label for="psw"><b>VIDEO DATABASE</b></label><br>
-    <input type="password" placeholder="ENTER THE FOLDER'S DRIVE LINK" name="psw" required><br>
+    <input type="search" name="myInput" placeholder="VIDEO TO BE SEARCHED" size="100" required><br>
+    <input type="search" name="myInput" placeholder="VIDEO DATABASE" size="100" required><br>
     <button type="submit"><b>SEARCH</b></button><br>
   </div>
 </form>
