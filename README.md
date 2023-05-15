@@ -7,10 +7,11 @@
 
 ## Features
 
-- Light/dark mode toggle
-- Live previews
-- Fullscreen mode
-- Cross platform
+- Easy to search
+- Provides best result
+- Fast
+- Efficient
+
 
 This project is hosted using [GitHub Pages](https://pages.github.com/).
 
